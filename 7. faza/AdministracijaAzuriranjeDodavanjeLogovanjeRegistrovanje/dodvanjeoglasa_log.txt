@@ -1,0 +1,7 @@
+TP1:Uspešno dodavanje oglasa
+Preduslov: Korisnik mora biti ulogovan
+
+	1.Korisnik unosi naslov,cenu,tip,vrstu,mesto,adresu,kvadraturu,opis u odgovarajuća polja.
+	2.Korisnik pritiska dugme Postavi.
+	3.Korisnik bira da li će da doda slike.
+VT	4.Korisnik pritiska dugme Pogledaj svoje oglase i tamo se nalazi njegov novi oglas.

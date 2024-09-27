@@ -1,0 +1,178 @@
+{
+  "id": "4c272a4a-f229-43db-a1aa-398809aa490d",
+  "version": "2.0",
+  "name": "AzuriranjeOglasa",
+  "url": "http://localhost:8080/Privilegeduser",
+  "tests": [{
+    "id": "dedb1443-2168-4f46-a048-119abafce3eb",
+    "name": "TP1_UspesnoAzuriranje",
+    "commands": [{
+      "id": "eda3debc-3dbc-4134-8cc6-28a95a8dce9b",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Privilegeduser",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee1a967e-9051-41c4-b618-8020e38345db",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Pogledaj svoje oglase",
+      "targets": [
+        ["linkText=Pogledaj svoje oglase", "linkText"],
+        ["css=.row:nth-child(9) .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Pogledaj svoje oglase')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'Privilegeduser/advertisements')]", "xpath:href"],
+        ["xpath=//div[5]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Pogledaj svoje oglase')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "29f40032-f619-48c0-b595-d6d7e8986943",
+      "comment": "",
+      "command": "click",
+      "target": "name=BAId41",
+      "targets": [
+        ["name=BAId41", "name"],
+        ["xpath=//input[@name='BAId41']", "xpath:attributes"],
+        ["xpath=(//form[@id='my_form']/input)[2]", "xpath:idRelative"],
+        ["xpath=//form[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec76741f-cd9b-4165-be21-0d84ec944983",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(8) > td:nth-child(1)",
+      "targets": [
+        ["css=table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(8) > td:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='content']/table/tbody/tr[8]/td", "xpath:idRelative"],
+        ["xpath=//tr[8]/td", "xpath:position"],
+        ["xpath=//td[contains(.,'Kvadratura u m2')]", "xpath:innerText"]
+      ],
+      "value": "88.79999923706055,1.199981689453125"
+    }, {
+      "id": "0dd2e3b0-57fc-4b37-a356-e41a027e6d27",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(8) > td:nth-child(1)",
+      "targets": [
+        ["css=table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(8) > td:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='content']/table/tbody/tr[8]/td", "xpath:idRelative"],
+        ["xpath=//tr[8]/td", "xpath:position"],
+        ["xpath=//td[contains(.,'Kvadratura u m2')]", "xpath:innerText"]
+      ],
+      "value": "88.79999923706055,1.199981689453125"
+    }, {
+      "id": "911702c9-1874-433e-a9ad-ceeeca86a2bc",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(8) > td:nth-child(1)",
+      "targets": [
+        ["css=table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(8) > td:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='content']/table/tbody/tr[8]/td", "xpath:idRelative"],
+        ["xpath=//tr[8]/td", "xpath:position"],
+        ["xpath=//td[contains(.,'Kvadratura u m2')]", "xpath:innerText"]
+      ],
+      "value": "88.79999923706055,1.199981689453125"
+    }, {
+      "id": "5c1aa8cf-6eaf-405c-b38b-737ff494ce50",
+      "comment": "",
+      "command": "click",
+      "target": "css=table:nth-child(1) > tbody:nth-child(1)",
+      "targets": [
+        ["css=table:nth-child(1) > tbody:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='content']/table/tbody", "xpath:idRelative"],
+        ["xpath=//tbody", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c59808b-b503-479d-a6fa-8333b37ce5a4",
+      "comment": "",
+      "command": "click",
+      "target": "name=adresa",
+      "targets": [
+        ["name=adresa", "name"],
+        ["css=tr:nth-child(7) input", "css:finder"],
+        ["xpath=//input[@name='adresa']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/table/tbody/tr[7]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[7]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2cba0e9-7476-4b6a-8d86-d0e647d5ac27",
+      "comment": "",
+      "command": "type",
+      "target": "name=adresa",
+      "targets": [
+        ["name=adresa", "name"],
+        ["css=tr:nth-child(7) input", "css:finder"],
+        ["xpath=//input[@name='adresa']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/table/tbody/tr[7]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[7]/td[2]/input", "xpath:position"]
+      ],
+      "value": "Makedonska"
+    }, {
+      "id": "01f54976-d4cc-408d-9fe8-c75c29448806",
+      "comment": "",
+      "command": "click",
+      "target": "css=td > .btn-success",
+      "targets": [
+        ["css=td > .btn-success", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/table/tbody/tr[12]/td[2]/button", "xpath:idRelative"],
+        ["xpath=//tr[12]/td[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Azuriraj')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a92a922-118f-4846-9634-163e02e187cd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-info",
+      "targets": [
+        ["css=.btn-info", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='containter']/main/section/div[2]/form/a/button", "xpath:idRelative"],
+        ["xpath=//a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Završi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "28234b70-8add-40f2-901f-9459198a8523",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Pogledaj svoje oglase",
+      "targets": [
+        ["linkText=Pogledaj svoje oglase", "linkText"],
+        ["css=.row:nth-child(9) .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Pogledaj svoje oglase')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'Privilegeduser/advertisements')]", "xpath:href"],
+        ["xpath=//div[5]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Pogledaj svoje oglase')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "00b9c901-4e79-4002-9a2c-9b80061dea08",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.row:nth-child(2) tr:nth-child(4) > .text-right:nth-child(2)",
+      "targets": [
+        ["css=.row:nth-child(2) tr:nth-child(4) > .text-right:nth-child(2)", "css:finder"],
+        ["xpath=//tr[4]/td[2]", "xpath:position"],
+        ["xpath=//td[contains(.,'Makedonska')]", "xpath:innerText"]
+      ],
+      "value": "Makedonska"
+    }]
+  }],
+  "suites": [{
+    "id": "b6b701c7-81ff-4c20-9b73-4ea04a2206e7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["dedb1443-2168-4f46-a048-119abafce3eb"]
+  }],
+  "urls": ["http://localhost:8080/Privilegeduser"],
+  "plugins": []
+}

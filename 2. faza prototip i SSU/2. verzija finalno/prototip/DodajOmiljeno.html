@@ -1,0 +1,115 @@
+<!-- Autor:Aleksandar Radosevic 2018/0333-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styleFavorite.css">
+    <script src='javascript.js'></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Komentarisanje</title>
+    
+</head>
+<body>
+    <nav>
+        <div class="logo"><h4><a href='index.html'>Success</a></h4></div>
+        <ul class="nav-links">
+          <li><a href='index.html'>Početna stranica</a href></li>
+          <li><a href='pretraga.html'>Pretraga</a href></li>
+          <li><a href='#'>Oglasi</a href></li>
+          <li><a href='#'>O nama</a href></li>
+          <li><a href='login.html' class='login'>Prijavite se</a href></li>
+          <li><a href='register.html' class='button register'>Registrujte se</a></a href></li>
+        </ul>
+                
+        <div class="hidden-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+    <div class="containter">
+        <main>
+        <section class="glass">
+            <h2 id="heading2">Stan</h2>
+
+
+
+            <div id="imageDiv">
+               
+                <table id="table1"> 
+                    <tr>
+                        <td>
+                            <a href="./assets/slika1.html">
+                                <img src="./assets/sl1.jpg" alt="Neuspesno ucitavanje">
+                            </a>
+                        </td>
+                        <td>
+                            <a href="./assets/slika2.html">
+                                <img src="./assets/sl2.jpg" alt="Neuspesno ucitavanje">
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="./assets/slika3.html">
+                            <img src="./assets/sl3.jpg" alt="Neuspesno ucitavanje">
+                            </a>
+                        </td>
+                        <td>
+                            <a href="./assets/slika4.html">
+                                <img src="./assets/sl4.jpg" alt="Neuspesno ucitavanje">
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="advertismentDescription">
+              <table id="table2">
+                  <tr>
+                      <td>Opis</td>
+                      <td>Lep stan</td>
+                  </tr>
+                  <tr>
+                      <td>Kvadratura</td>
+                      <td>100</td>
+                  </tr>
+                  <tr>
+                      <td>Cena</td>
+                      <td>100.000 €</td>
+                  </tr>
+                  <tr>
+                      <td>Lokacija</td>
+                      <td>Ratka Mitrovica 160</td>
+                  </tr>
+                  <tr>
+                      <td>Uknjižen</td>
+                      <td>Da</td>
+                  </tr>
+              </table>
+            </div>
+            <div class="size" id="descrText">
+                <p id="paragraphText">Jako lepo i moderno opremljen stan, kompletno renoviran, opremljen kvalitetnim nameštajem i tehnikom, veoma funkcionalan, dupleks, na prvom nivou je dnevni boravak, trpezarija i kuhinja, dve manje spavaće sobe, kupatilo i terasa, dok se na drugom nivou nalazi jedna veća, jedna manja spavaća soba, manji dnevni boravak i kupatilo sa đakuzijem. </p>
+            </div>
+            <div class="size" id="addFavorite">
+                <button id="btnFavorite">Dodaj u omiljeno</button>
+            </div>
+            <br>
+            <div>
+                <form action="">
+                    <textarea name="TextPolje" id="comment" cols="100" rows="5"></textarea>
+                    <button id="btnAdd">Dodaj komentar</button>
+                </form>
+            </div>
+        </section>
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        </main>
+    </div>
+</body>
+</html>

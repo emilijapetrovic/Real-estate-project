@@ -1,0 +1,36 @@
+TP1: Uspesan pregled svojih oglasa
+Preduslov: Korisnik je tipa Privilogan ili Agencija i uspesno je ulogovan na sistem
+
+	1. Korisnik bira opciju "Moj profil" iz menija
+	2. Korisnik pritiska na dugme "Pogledaj svoje oglase"
+VT	3. Korisnik dobija poruku "Rezultati pretrage"
+
+TP2: Neuspesan pregled svojih oglasa
+Preduslov: Korisnik je tipa Privilogan ili Agencija i uspesno je ulogovan na sistem
+	
+	1. Korisnik bira opciju "Moj profil" iz menija
+	2. Korisnik pritiska na dugme "Pogledaj svoje oglase"
+VT	3. Korisnik dobija poruku "Nema rezultata za datu pretragu"
+
+TP3: Uspesna pretraga omiljenih oglasa
+Preduslov: Korisnik je uspesno ulogovan na sistem
+
+	1. Korisnik bira opciju "Moj profil" iz menija
+	2. Korisnik pritiska na dugme "Omiljeno"
+VT	3. Korisnik dobija poruku "Rezultati pretrage"
+
+
+TP4: Neuspesna pretraga omiljenih oglasa
+Preduslov: Korisnik je uspesno ulogovan na sistem
+
+	1. Korisnik bira opciju "Moj profil" iz menija
+	2. Korisnik pritiska na dugme "Omiljeno"
+VT	3. Korisnik dobija poruku "Nema rezultata za datu pretragu"
+
+
+
+
+
+
+
+

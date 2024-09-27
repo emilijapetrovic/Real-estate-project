@@ -1,0 +1,22 @@
+TP1: Uspesno komentarisanje
+Preduslov: Da bi testovi radili korisnik mora biti ulogovan i oglas mora da postoji u bazi!
+
+	1. Korisnik u polju za komentarisanje unosi zeljeni komentar
+	2. Korisnik pritiska na dugme komentarisi
+VT	3. U okviru sekcije komentari ispod oglasa nalazi se i korisnikov komentar
+
+TP2: Neuspesno komentarisanje
+Preduslov: Da bi testovi radili korisnik mora biti ulogovan i oglas mora da postoji u bazi!
+VT	1. Korisniku je zabranjeno komentarisanje i samim tim mu se i ne vidi polje za komentarisanje
+
+TP3: Uspesno dodavanje u omiljeno
+Preduslov: Da bi testovi radili korisnik mora biti ulogovan i oglas mora da postoji u bazi!
+VT	1. Korisnik klikom na dugme dodaj u omiljeno dodaje oglas u omiljene oglase 
+Posledica
+Nakon toga u sekciji omiljeno mu se nalazi dodati oglas
+
+
+TP4: Uspesno ocenjivanje poslovanja agencije
+Preduslov: Da bi testovi radili korisnik mora biti ulogovan i oglas mora da postoji u bazi i pritom vlasnik oglasa mora biti agencija!
+	1. Korisnik bira ocenu od 1 do 5
+VT	2. Korisnik dobija poruku da je uspesno ocenio.

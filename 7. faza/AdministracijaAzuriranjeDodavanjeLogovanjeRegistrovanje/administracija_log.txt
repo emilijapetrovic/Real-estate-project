@@ -1,0 +1,21 @@
+TP1: Uspešno uklanjanje korisnika
+Preduslov: Admin mora da bude ulogovan
+
+	1.Admin pritiska na dugme Korisnici.
+	2.Admin pritiska na dugme Ukloni korisnika pored korisnika kojeg želi da ukloni.
+VT	3.Korisnik nestaje sa liste.
+
+TP2: Uspešna promena privilegija
+Preduslov: Admin mora da bude ulogovan
+
+	1.Admin pritiska na dugme Korisnici.
+	2.Admin pritiska na dugme Izmeni privilegije i bira koje privilegije želi da doda ili oduzme korisniku.
+	3.Admin pritiska dugme Promeni privilegije.
+VT	3.U listi kod korisnika ostaće štriklirane one privilegije koje je admin odabrao.
+
+TP1: Uspešno uklanjanje oglasa
+Preduslov: Admin mora da bude ulogovan
+
+	1.Admin pritiska na dugme Oglasi.
+	2.Admin pritiska na dugme Obriši oglas pored oglasa kojeg želi da ukloni.
+VT	3.Oglas nestaje sa liste.

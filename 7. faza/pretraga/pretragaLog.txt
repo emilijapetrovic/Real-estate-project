@@ -1,0 +1,75 @@
+TP1: Uspesna pretraga po ceni
+Preduslov: nema
+
+	1. Korisnik unosi vrednost cene od i vrednost cene do (opciono)
+	2. Korisnik pritiska na dugme pretraga
+VT	3. Korisnik treba da dobije sve oglase koji zadovljavaju kriterijum
+
+TP2: Neuspesna pretraga po ceni
+Preduslov: nema
+	1. Korisnik unosi vrednost cene od i vrednost cene do (opciono)
+	2. Korisnik pritiska na dugme pretraga
+VT	3. Korisnik dobija poruku da nema oglasa za unete vrednosti
+
+TP3: Uspesna pretraga po kvadraturi
+Preduslov: nema
+
+	1. Korisnik unosi vrednosti kvadrature
+	2. Korisnik pritiska na dugme pretraga
+VT	3. Korisnik treba da dobije sve oglase koji zadovljavaju kriterijum
+
+TP4: Neuspesna pretraga po kvadraturi
+Preduslov: nema
+	1. Korisnik unosi vrednosti kvadrature
+	2. Korisnik pritiska na dugme pretraga
+VT	3. Korisnik dobija poruku da nema oglasa za unete vrednosti
+
+
+
+TP5: Uspesna pretraga po lokaciji
+Preduslov: nema
+
+	1. Korisnik stiklira opstine koje ga zanimaju
+	2. Korisnik pritiska na dugme pretraga
+VT	3. Korisnik treba da dobije sve oglase koji zadovljavaju kriterijum
+
+TP6: Neuspesna pretraga po lokaciji
+Preduslov: nema
+	1. Korisnik stiklira opstine koje ga zanimaju
+	2. Korisnik pritiska na dugme pretraga
+VT	3. Korisnik dobija poruku da nema oglasa za unete vrednosti
+
+TP7: Uspesna pretraga po tipu
+Preduslov: nema
+	1. Korisnik unosi tip nekretnine
+	2. Korisnik pritiska na dugme pretraga
+VT	3. Korisnik treba da dobije sve oglase koji zadovljavaju kriterijum
+
+TP8: Neuspesna pretraga po tipu
+Preduslov: nema
+	1. Korisnik unosi tip nekretnine
+	2. Korisnik pritiska na dugme pretraga
+VT	3. Korisnik dobija poruku da nema oglasa za unete vrednosti
+
+
+TP8: Uspesna pretraga po vrsti usluge
+Preduslov: nema
+	1. Korisnik unosi vrstu usluge
+	2. Korisnik pritiska na dugme pretraga
+VT	3. Korisnik treba da dobije sve oglase koji zadovljavaju kriterijum
+
+
+TP8: Neuspesna pretraga po vrsti usluge
+Preduslov: nema
+	1. Korisnik unosi vrstu usluge
+	2. Korisnik pritiska na dugme pretraga
+VT	3. Korisnik dobija poruku da nema oglasa za unete vrednosti
+
+
+
+
+
+
+
+
+

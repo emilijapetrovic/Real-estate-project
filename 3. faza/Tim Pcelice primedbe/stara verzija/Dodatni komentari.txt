@@ -1,0 +1,25 @@
+	Ovde su dodatni komentari za koje nismo smatrali da predstavljaju velike greske:
+
+	1. U SSU - Dodavanje oglasa:
+	U preduslovima je potrebno da bude navedeno da korisnik mora biti privilegovan korisnik jer je to receno u nacrtu projekta.
+
+	2. U SSU - Azuriranje oglasa:
+	U preduslovima je potrebmo da bude navedeno da korisnik mora biti privilegovan korisnik jer je to receno u nacrtu projekta.
+
+	3. U SSU - Ocenjivanje oglasa:
+	U preduslovima bi trebalo da bude navedeno da korisnik mora biti registrovan, ali da tip korisnika ne sme biti agencija.
+
+	4. U SSU - Pregled profila
+	U preduslovima bi trebalo da bude navedeno da korisnik mora biti registrovan.
+
+	5. Generalno za prototip:
+	Prototip bi trebalo da predstavlaj jednu celinu kod koje postoji odredjen html fajl preko koga je moguce doci do svih 
+	funckionalnosti, bilo bi bolje da se funckionalnostima realizovanim unutar html fajlova: 
+		Komentarisanje.html, 
+		omiljeno.html,
+		Ocenjivanje.html 
+	moze pristupiti preko osnovnong (pocetnog) htmla kada je korisnik prijavljen na sajt. 
+
+	6. Nacrt projekta Real Estate Tim Success: 
+	Unutar podnaslova Pregled arhitekture sistema, naslova Opis proizvoda, paragraf koji daje detaljan opis arhitekture 
+	datog sistema nije potpun, odnosno poslednja rečenica nije dovršena.

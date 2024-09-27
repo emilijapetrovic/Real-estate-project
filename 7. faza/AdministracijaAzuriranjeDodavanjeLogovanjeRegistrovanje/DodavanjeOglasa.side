@@ -1,0 +1,283 @@
+{
+  "id": "c7f975dd-d031-4d5f-b639-a599f0644d6c",
+  "version": "2.0",
+  "name": "DodavanjeOglasa",
+  "url": "http://localhost:8080/Privilegeduser",
+  "tests": [{
+    "id": "44c5e6e0-46d9-4c6f-b3b5-a2a9585ca281",
+    "name": "TP1_UspesnoDodavanjeOglasa",
+    "commands": [{
+      "id": "2baf653d-5825-4785-9ff1-0a2245b66480",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8080/Privilegeduser",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a242eef0-e9f1-47ec-9410-7d4a40cf8719",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "800x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "58f9b418-3cbc-4c76-8477-b716c6476b61",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Dodaj novi oglas",
+      "targets": [
+        ["linkText=Dodaj novi oglas", "linkText"],
+        ["css=.row:nth-child(11) .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Dodaj novi oglas')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'Privilegeduser/addAdvertisement')]", "xpath:href"],
+        ["xpath=//div[6]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Dodaj novi oglas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb8a5cb9-7e3d-4086-99c1-95aef2a5cbfd",
+      "comment": "",
+      "command": "click",
+      "target": "name=naslov",
+      "targets": [
+        ["name=naslov", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='naslov']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/table/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "01bf863b-c2cf-43af-ba8c-f2b13032dbb8",
+      "comment": "",
+      "command": "type",
+      "target": "name=naslov",
+      "targets": [
+        ["name=naslov", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='naslov']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/table/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Stan"
+    }, {
+      "id": "770e8ecf-f434-46c0-ae81-09d2b1205bea",
+      "comment": "",
+      "command": "click",
+      "target": "name=cena",
+      "targets": [
+        ["name=cena", "name"],
+        ["css=tr:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='cena']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/table/tbody/tr[3]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba8dfee8-3d33-4a4d-8590-8fbbf10bfbb2",
+      "comment": "",
+      "command": "type",
+      "target": "name=cena",
+      "targets": [
+        ["name=cena", "name"],
+        ["css=tr:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='cena']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/table/tbody/tr[3]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": "3500"
+    }, {
+      "id": "e492ed45-d3ba-4f29-a2ff-2a4bbd320313",
+      "comment": "",
+      "command": "click",
+      "target": "id=stan",
+      "targets": [
+        ["id=stan", "id"],
+        ["name=tipNekretnine", "name"],
+        ["css=#stan", "css:finder"],
+        ["xpath=//input[@id='stan']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/table/tbody/tr[4]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a03f6c89-e576-49b8-a7e7-65db7a423db9",
+      "comment": "",
+      "command": "click",
+      "target": "id=prodaja",
+      "targets": [
+        ["id=prodaja", "id"],
+        ["name=vrstaUsluge", "name"],
+        ["css=#prodaja", "css:finder"],
+        ["xpath=//input[@id='prodaja']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/table/tbody/tr[5]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "04a66730-4b9b-4ba5-979d-0134d8a2e620",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-info",
+      "targets": [
+        ["css=.btn-info", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/table/tbody/tr[6]/td[2]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Izaberi lokaciju')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d455aa5-3ce8-402e-adc8-e5b8c8eae338",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown-item:nth-child(6) > label",
+      "targets": [
+        ["css=.dropdown-item:nth-child(6) > label", "css:finder"],
+        ["xpath=//div[@id='content']/table/tbody/tr[6]/td[2]/div/div/div[6]/label", "xpath:idRelative"],
+        ["xpath=//div[6]/label", "xpath:position"],
+        ["xpath=//label[contains(.,' Beograd, Stari grad')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "059f2032-9262-46ef-aee5-9d86cbd7343b",
+      "comment": "",
+      "command": "click",
+      "target": "name=adresa",
+      "targets": [
+        ["name=adresa", "name"],
+        ["css=tr:nth-child(7) input", "css:finder"],
+        ["xpath=//input[@name='adresa']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/table/tbody/tr[7]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[7]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13e20214-d561-4bcb-a1a1-3fce1e555ef5",
+      "comment": "",
+      "command": "type",
+      "target": "name=adresa",
+      "targets": [
+        ["name=adresa", "name"],
+        ["css=tr:nth-child(7) input", "css:finder"],
+        ["xpath=//input[@name='adresa']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/table/tbody/tr[7]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[7]/td[2]/input", "xpath:position"]
+      ],
+      "value": "Hilandarska"
+    }, {
+      "id": "958c86fa-555e-43ec-b0f9-a5cb38a7469d",
+      "comment": "",
+      "command": "click",
+      "target": "name=kvadratura",
+      "targets": [
+        ["name=kvadratura", "name"],
+        ["css=tr:nth-child(8) input", "css:finder"],
+        ["xpath=//input[@name='kvadratura']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/table/tbody/tr[8]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[8]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ceab4b46-4728-4faa-a717-7ccc76281847",
+      "comment": "",
+      "command": "type",
+      "target": "name=kvadratura",
+      "targets": [
+        ["name=kvadratura", "name"],
+        ["css=tr:nth-child(8) input", "css:finder"],
+        ["xpath=//input[@name='kvadratura']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/table/tbody/tr[8]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[8]/td[2]/input", "xpath:position"]
+      ],
+      "value": "300"
+    }, {
+      "id": "b016daa8-2a08-4f3a-931c-181b8821b86e",
+      "comment": "",
+      "command": "click",
+      "target": "name=komentar",
+      "targets": [
+        ["name=komentar", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='komentar']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/table/tbody/tr[10]/td[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9dd7e719-5be7-412c-a8a5-b4ec16025de6",
+      "comment": "",
+      "command": "type",
+      "target": "name=komentar",
+      "targets": [
+        ["name=komentar", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='komentar']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/table/tbody/tr[10]/td[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Dobar stan"
+    }, {
+      "id": "ba1a7ebb-c89a-41ec-bfdc-7596dd592cbc",
+      "comment": "",
+      "command": "click",
+      "target": "css=td > .btn-success",
+      "targets": [
+        ["css=td > .btn-success", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/table/tbody/tr[12]/td[2]/button", "xpath:idRelative"],
+        ["xpath=//tr[12]/td[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Postavi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d0039c5-770e-4532-8367-77e83e7f47fa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-info",
+      "targets": [
+        ["css=.btn-info", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='containter']/main/section/div[2]/form/a/button", "xpath:idRelative"],
+        ["xpath=//a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Završi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c710f56c-4524-4f25-99f0-f4bea592ef0a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Pogledaj svoje oglase",
+      "targets": [
+        ["linkText=Pogledaj svoje oglase", "linkText"],
+        ["css=.row:nth-child(9) .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Pogledaj svoje oglase')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'Privilegeduser/advertisements')]", "xpath:href"],
+        ["xpath=//div[5]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Pogledaj svoje oglase')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a7caf48-1182-4465-b590-c2960d366e69",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=b",
+      "targets": [
+        ["css=b", "css:finder"],
+        ["xpath=//b", "xpath:position"],
+        ["xpath=//b[contains(.,'Stan')]", "xpath:innerText"]
+      ],
+      "value": "Stan"
+    }]
+  }],
+  "suites": [{
+    "id": "f71606b8-fc61-4056-a8b0-afd3d26c8035",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["44c5e6e0-46d9-4c6f-b3b5-a2a9585ca281"]
+  }],
+  "urls": ["http://localhost:8080/Privilegeduser"],
+  "plugins": []
+}

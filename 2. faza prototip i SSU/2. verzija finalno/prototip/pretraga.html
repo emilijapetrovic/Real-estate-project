@@ -1,0 +1,200 @@
+<!-- Autor:Emilija Petrovic 2017/0644-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src='javascript.js'></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Prototip</title>
+    
+</head>
+<body>
+  
+    <nav>
+        <div class="logo"><h4><a  href='index.html'>Success</a></h4></div>
+        <ul class="nav-links">
+          <li><a href='index.html'>Početna stranica</a href></li>
+          <li><a href='pretraga.html'>Pretraga</a href></li>
+          <li><a href='#'>Oglasi</a href></li>
+          <li><a href='#'>O nama</a href></li>
+          <li><a href='login.html' class='login'>Prijavite se</a href></li>
+          <li><a href='register.html' class='button register'>Registrujte se</a></a href></li>
+        </ul>
+                
+        <div class="hidden-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+    <div class="containter">
+      <main>
+      <section class="glassem">
+       
+          <h3>Pretraga</h3>
+
+        
+           <br>
+           <br>
+          <div class="sr">
+          <label>
+               Cena
+            </label>
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            od
+            <input id="p"type='text' name='username'  autocomplete="off" required>
+            do
+            <input id="p"type='text' name='domen' autocomplete="off" required>              
+            <br>
+            <br>
+            <br>
+            <br>
+          <label id="kolona2">
+              Lokacija
+          </label>
+          <div class="dropdown" >
+              <button id="dd" class="dropbtn" d>Izaberi lokaciju</button>
+              <div class="dropdown-content">
+                <label>
+                  <input type="checkbox" name="Prikazi sve"> Prikazi sve
+                </label>
+          
+            <br>
+                  <label>
+                      <input type="checkbox" name="Beograd"> Beograd
+                    </label>
+              
+                <br>
+                <label>
+                  <input type="checkbox" name="Beograd, Cukarica"> Beograd, Cukarica
+                </label>
+                <br>
+                <label>
+                  <input type="checkbox" name="Beograd, Palilula"> Beograd, Palilula
+                </label>
+               <br>
+               <label>
+                  <input type="checkbox" name="Beograd, Zvezdara"> Beograd, Zvezdara
+                </label>
+                <br>
+               <label>
+                  <input type="checkbox" name="Beograd, Vracar"> Beograd, Vracar
+                </label>
+                <br>
+               <label>
+                  <input type="checkbox" name="Beograd, Stari grad"> Beograd, Stari grad
+                </label>
+                <br>
+                <label>
+                   <input type="checkbox" name="Beograd, Vozdovac"> Beograd, Vozdovac
+                 </label>
+                 <br>
+                 <label>
+                    <input type="checkbox" name="Beograd, Zemun"> Beograd, Zemun
+                  </label>
+                  <br>
+               <label>
+                  <input type="checkbox" name="Beograd, Novi Bograd"> Beograd, Novi Beograd
+                </label>
+                <br>
+               <label>
+                  <input type="checkbox" name="Beograd, Savski venac"> Beograd, Savski venac
+                </label>
+                <br>
+               <label>
+                  <input type="checkbox" name="Beograd, Rakovica"> Beograd, Rakovica
+                </label>
+                <br>
+               <label>
+                  <input type="checkbox" name="Beograd, Barajevo"> Beograd, Barajevo
+                </label>
+                <br>
+               <label>
+                  <input type="checkbox" name="Beograd, Grocka"> Beograd, Grocka
+                </label>
+                <br>
+               <label>
+                  <input type="checkbox" name="Beograd, Lazarevac"> Beograd, Lazarevac
+                </label><br>
+                <label>
+                   <input type="checkbox" name="Beograd, Mladenovac"> Beograd, Mladenovac
+                 </label><br>
+                 <label>
+                    <input type="checkbox" name="Beograd, Obrenovac"> Beograd, Obrenovac
+                  </label>
+                  <br>
+               <label>
+                  <input type="checkbox" name="Beograd, Surcin"> Beograd, Surcin
+                </label>
+                <br>
+               <label>
+                  <input type="checkbox" name="Beograd,Sopot"> Beograd, Sopot
+                </label>
+              </div>
+            </div>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <label>
+              Kvadratura
+            </label>
+            &nbsp;
+            od
+            <input id="p"  type='text' name='username' id='username' autocomplete="off" required>
+            do
+            <input id="p"type='text' name='username' id='username' autocomplete="off" required>   
+          <br>
+          <br>
+          <br>
+          <br>
+          <label id="kolona22">
+             Tip
+            </label>
+            <div class="dropdown">
+              <button id="d" class="dropbtn">Izaberi tip</button>
+              <div class="dropdown-content">
+                <label>
+                  <input type="checkbox" name="Prikazi sve"> Prikazi sve
+                </label>
+          
+            <br>
+                  <label>
+                      <input type="checkbox" name="Stan"> Stan
+                    </label>
+                <br>
+                <label>
+                  <input type="checkbox" name="Kuca"> Kuca
+                </label>
+                <br>
+                <label>
+                  <input type="checkbox" name="Garaza"> Garaza
+                </label>
+              </div>
+            </div>
+          </div>
+          <br>
+          <br>
+          <br>
+          <br>
+          <button id="dugme" type='button' onclick="pretrazi()">Pretraga &nbsp;<img id="lupa" src="./assets/lupa.png" alt="Lupa" ></button>
+      </section>
+      <div class="circle1"></div>
+      <div class="circle2"></div>
+      </main>
+  </div>
+</body>
+</html>

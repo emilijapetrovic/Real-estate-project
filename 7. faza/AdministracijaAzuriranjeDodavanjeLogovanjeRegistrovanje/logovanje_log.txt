@@ -1,0 +1,20 @@
+TP1:Uspešno logovanje
+Preduslov: Korisničko ime i lozinka treba da postoje u bazi
+
+	1.Korisnik unosi korisničko ime i lozinku u odgvorajuća polja.
+	2.Korisnik pritiska dugme Prijavi se.
+VT	3.Korisnik se premešta na stranicu svog profila.
+
+TP2:Neuspešno logovanje-korisničko ime
+Preduslov:Korisničko ime se ne nalazi u bazi
+
+	1.Korisnik unosi korisničko ime i lozinku u odgovarajuća polja.
+	2.Korisnik pritiska dugme Prijavi se.
+VT	3.Sistem ispisuje "Uneti korisnik ne postoji".
+
+TP3:Neuspešno logovanje-šifra
+Preduslov:Korisničko ime se nalazi u bazi različitom lozinkom
+
+	1.Korisnik unosi korisničko ime i lozinku u odgovarajuća polja.
+	2.Korisnik pritiska dugme Prijavi se.
+VT	3.Sistem ispisuje "Pogrešna šifra".

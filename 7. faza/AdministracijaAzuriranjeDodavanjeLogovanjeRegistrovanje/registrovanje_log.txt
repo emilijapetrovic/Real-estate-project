@@ -1,0 +1,38 @@
+TP1: Uspešno registrovanje
+Preduslov:korisničko ime,email treba da se ne nalaze u bazi.
+	
+	1.Korisnik pritiska dugme Dodaj novi oglas.
+	2.Korisnik unosi korisničko ime,dva puta lozinku,ime,prezime,email,broj telefona u odgovarajuća polja.
+	3.Korisnik pritiska dugme Registruj se.
+VT	4.Korisnik se premešta na stranicu za prijavljivanje.
+
+TP2:Neuspešno registrovanje-različite lozinke
+Preduslov:korisničko ime,email treba da se ne nalaze u bazi.
+
+	1.Korisnik unosi korisničko ime,dva puta lozinku,ime,prezime,email,broj telefona u odgovarajuća polja.
+	2.Korisnik pritiska dugme Registruj se.
+VT	3.Sistem ispisuje Lozinke moraju da se poklapaju.
+
+TP3:Neuspešno registrovanje-nepravilan broj
+Preduslov:korisničko ime,email treba da se ne nalaze u bazi,korisnik mora izabrati privilegovani korisnik ili agencija za nekretnine.
+
+	1.Korisnik pritiska dugme Dodaj novi oglas.
+	2.Korisnik unosi korisničko ime,dva puta lozinku,ime,prezime,email,broj telefona u odgovarajuća polja.
+	3.Korisnik pritiska dugme Registruj se.
+VT	4.Sistem ispisuje Neispravan telefonski broj
+
+TP4:Neuspešno registrovanje-korisničko ime već postoji
+Preduslov:email treba da se ne nalaze u bazi
+
+	1.Korisnik pritiska dugme Dodaj novi oglas.
+	2.Korisnik unosi korisničko ime,dva puta lozinku,ime,prezime,email,broj telefona u odgovarajuća polja.
+	3.Korisnik pritiska dugme Registruj se.
+VT	4.Sistem ispisuje Korisničko ime već postoji.
+
+TP5:Neuspešno registrovanje-email već postoji
+Preduslov:korisničko ime
+
+	1.Korisnik pritiska dugme Dodaj novi oglas.
+	2.Korisnik unosi korisničko ime,dva puta lozinku,ime,prezime,email,broj telefona u odgovarajuća polja.
+	3.Korisnik pritiska dugme Registruj se.
+VT	4.Sistem ispisuje Uneti mejl već postoji.
